@@ -41,6 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlockingConsumerProducerQueue.cs" />
+    <Compile Include="Bus\IExecute.cs" />
+    <Compile Include="Bus\InternalBus.cs" />
+    <Compile Include="Bus\MessageAction.cs" />
+    <Compile Include="SingleThreadQueues\SingleThreadQueue.cs" />
+    <Compile Include="SingleThreadQueues\SingleThreadQueueManager.cs" />
+    <Compile Include="OldStyleProducerConsumerQueue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
